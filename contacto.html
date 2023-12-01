@@ -1,0 +1,61 @@
+<!-- 
+****************************************************************************************************************************************************************
+Jon Cubillas Martínez
+01/12/2023 
+Lenguaje de marcas y sistema de gestión de la información (DAM)
+UD02 Tarea Evaluativa 2. Sitio web
+Descripción: Página de contacto
+****************************************************************************************************************************************************************
+-->
+
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+   <title>Go green-Contacto</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../LMSGI02-TE02/styles/formatos.css">
+</head>
+
+<body>
+   <header>GO GREEN</header>
+   <nav id="navegacion">
+      <a id="boton" href="index.html">INICIO</a>
+      <a id="boton" href="noticias.html">NOTICIAS</a>
+      <a id="boton" href="recetas.html">RECETAS</a>
+      <a id="boton" href="contacto.html">CONTACTO</a>
+   </nav>
+   <main id="principal">
+      <section>
+         <article id="formulario">
+             <form action="enviado.html">
+                 <fieldset>
+                     <legend><h3>Contacta con nosotros</h3></legend>
+                         <label for="fnamenom1">Nombre:</label>
+                         <input type="text" id="fnamenom1" name="nombre1" value="Nombre"><br>
+                         <label for="fnameapel1">Apellido:</label>
+                         <input type="text" id="fnameapel1" name="apellido1" value="Apellido"><br>
+                     <label for="asunto">Asunto:</label>
+                     <select id="asunto" name="asunto">
+                         <option value="Consulta">Consulta</option>
+                         <option value="Sugerencia">Sugerencia</option>
+                         <option value="Queja">Queja</option>
+                     </select><br>
+                     <label for="fmensaje">Mensaje:</label>
+                         <textarea aria-label="Mensaje" rows="12" maxlength="1000" id="fmensaje" name="mensaje" value="Escribe tu mensaje."></textarea><br>
+                     <input type="submit" value="Enviar">
+                 </fieldset>
+             </form>
+         </article>
+      
+   </main>
+   <footer id="pie">Jon Cubillas Martínez 01/12/2023</footer>
+   
+</body>
+
+
+
+
+</html>

@@ -1,0 +1,166 @@
+/*
+****************************************************************************************************************************************************************
+Jon Cubillas Martínez
+01/12/2023 
+Lenguaje de marcas y sistema de gestión de la información (DAM)
+UD02 Tarea Evaluativa 2. Sitio web
+Descripción: Hoja de estilos css
+****************************************************************************************************************************************************************
+*/
+
+body {
+    background-image:url(../images/lechugas.avif);
+    background-size:cover;
+    font-family: Arial;
+}
+
+nav, main, footer {
+	background-color: rgb(124, 190, 124);
+	color: rgb(2, 82, 2);
+	border-style: solid;
+    border-color: rgb(2, 82, 2);
+    border-radius: 5px;
+	padding: 10px;
+	margin: 20px;
+}
+
+header  {
+    text-align:center;
+    height:30%;
+    margin: 20px;
+    padding: auto;
+    font-size: 200px;
+    color: rgb(2, 82, 2);
+    background-color: rgb(124, 190, 124);
+    border-style: solid;
+    border-color: rgb(2, 82, 2);
+    border-radius: 5px;
+    font-family: Arial;   
+}
+
+#navegacion {
+    text-align:center;
+    height:10%;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#principal {
+    display: flex;
+	flex-direction: column;
+}
+
+#boton {
+    width:fit-content;
+    height: fit-content;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(2, 82, 2);
+	color: rgb(124, 190, 124);
+	border-style: solid;
+    border-color: rgb(2, 82, 2);
+    border-radius: 5px;
+}
+
+article {
+    background-color: rgb(157, 212, 157);
+	border-style: solid;
+    border-color: rgb(157, 212, 157);
+    border-radius: 5px;
+    margin: 5px;
+    align-items: center;
+    height: fit-content;
+}
+
+#articulo-img {
+    max-height: 100px;
+    float:right;
+    margin: 10px;
+    align-items: center;
+}
+
+#receta-img {
+    max-height: 200px;
+    float:left;
+    margin: 10px;
+    align-items: center;
+}
+
+#receta-img-detalle {
+    max-height: 400px;
+    float:left;
+    margin-right: 100px;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    margin:5px;
+    padding:20px;
+    width: 30%;
+    justify-content: center;
+    flex-direction: column;    
+}
+
+label {
+    display: block;
+    text-align: left;
+}
+
+input {
+    display: block;
+    text-align: left;
+}
+
+textarea {
+    display: block;
+    text-align: left;
+    width:100%;
+}
+
+select {
+    display: block;
+    text-align: left;
+}
+
+#formulario{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+#presentacion {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#receta {
+    background-color: rgb(157, 212, 157);
+	border-style: solid;
+    border-color: rgb(157, 212, 157);
+    border-radius: 5px;
+    margin: 10px;
+    text-align: left;
+    align-items: center;
+    min-height: 220px;
+}
+
+#pie {   
+    text-align:center;
+    height:10%; 
+}
+
+
+
+
+
+
+
+
+
+
+
